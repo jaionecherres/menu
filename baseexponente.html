@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/page.css">        
+        <title>Base elevada al exponente</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <h1>Base elevada al exponente</h1>
+            <form action="../index.html">
+
+                <div class="grupo">
+                    <label for="año">Ingrese un numero positivo</label>
+                    <input type="text" id="num1" value="" placeholder="Base"/>
+                    <input type="text" id="num2" value="" placeholder="Exponente"/>
+                </div>
+
+                <div class="grupo">
+                    <button type="button" onclick="calc.exponente()">Calcular</button>
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Regresar</button>
+                </div>
+                <textarea  id="resp" rows="10">
+                </textarea>
+              
+            </form>
+        </section>
+         <script src="../js/cal.js">
+            
+         </script>
+    </body>
+</html>
